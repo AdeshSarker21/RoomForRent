@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1991px) and (min-width: 1750px) {
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .address .addressText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .timeRightArea .text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .timeLeftArea .text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .roomDetails .roomDetailsText {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .price .priceText {
+        font-size: 31px;
+        font-weight: 700;
+        color: #47C7B5;
+    }
+
+    .customWidthOne {
+        flex-basis: 25%;
+        margin-right: 10px;
+    }
+
+    .customWidthTwo {
+        flex-basis: 75%;
+        padding-left: 20px;
+    }
+
+    .recentAdsImageArea .recentAdsImage {
+        width: 206px;
+        height: 251px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 28px;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .mainMapArea {
+        width: 44%;
+    }
+
+    .mainSearchArea {
+        width: 56%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .flexBoxFour {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .recentAdsImageArea .recentAdsImage {
+        width: 100%;
+        height: 420px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .customWidthOne {
+        flex-basis: 100%;
+        margin-right: 0px;
+    }
+
+    .customWidthTwo {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .address .addressText {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .timeRightArea .text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .timeLeftArea .text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .roomDetails .roomDetailsText {
+        font-size: 16px;
+    }
+
+    .newBtnArea .newButton {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .recentAdsImageArea .recentAdsImage {
+        width: 100%;
+        height: 380px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .searchRoomHeading .searchText {
+        font-size: 20px;
+    }
+
+    .filterIconArea .filterText {
+        font-size: 20px;
+    }
+}

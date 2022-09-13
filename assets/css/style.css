@@ -1,0 +1,793 @@
+/*============
+font-family: 'Montserrat', sans-serif;
+=============*/
+/*===========================Font Family Start============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/*=============================Font Family End==============================================*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*=========================================*/
+/*==========Start Header Section==========*/
+/*=========================================*/
+.mainHeaderArea {
+    padding: 52px 0px 57px;
+}
+
+.mainMenuArea {}
+
+.menuArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menuArea .menuList {}
+
+.menuArea .menuList .menuItem {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0px 18px;
+    position: relative;
+}
+
+.menuArea .menuList .regButton {
+    margin-right: 0;
+    background: #47C7B5;
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px 43px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.menuArea .menuList .regButton:hover {
+    box-shadow: 0px 0px 15px 0px #47C7B5;
+}
+
+.menuArea .menuList .menuItem::after {
+    content: "";
+    position: absolute;
+    clear: both;
+    bottom: 0%;
+    left: 0%;
+    height: 3px;
+    width: 100%;
+    background: #47C7B5;
+    border-radius: 35px;
+    display: none;
+}
+
+.menuArea .menuList .menuItem:hover {
+    color: #47C7B5;
+}
+
+.menuArea .menuList .menuItem:hover::after {
+    display: block;
+}
+
+.menuArea .menuList .menuActive {
+    color: #47C7B5;
+    position: relative;
+}
+
+.menuArea .menuList .menuActive::after {
+    content: "";
+    position: absolute;
+    clear: both;
+    bottom: 0%;
+    left: 0%;
+    height: 3px;
+    width: 100%;
+    background: #47C7B5;
+    border-radius: 35px;
+    display: block !important;
+}
+
+.responsiveHeader {
+    display: none;
+}
+
+.maninLogoArea {}
+
+.maninLogoArea .logoLink {
+    display: inline-block;
+}
+
+.maninLogoArea .logoLink .mainLogo {
+    width: 100%;
+}
+
+/*=========================================*/
+/*==========End Header Section==========*/
+/*=========================================*/
+/*=========================================*/
+/*============Start Hero Section============*/
+/*=========================================*/
+.mainHeroArea {}
+
+.heroLeftArea {}
+
+.heroLogoArea {
+    padding: 200px 0px 100px;
+}
+
+.heroLogoArea .heroLogo {
+    width: 90%;
+}
+
+.mainSearchBarArea {
+    padding-bottom: 120px;
+}
+
+.mainSearchFormArea {}
+
+.formGroup {}
+
+.formGroup .formLabel {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.searchInput {
+    flex-basis: 80%;
+}
+
+.formGroup .formInput {
+    border: none;
+    background: none;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: #707070;
+    padding: 15px 43px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000000;
+    width: 100%;
+}
+
+.searchButtonArea {
+    flex-basis: 20%;
+}
+
+.searchButtonArea .formSearchButton {
+    border: none;
+    background: none;
+    background: #47C7B5;
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px 43px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.searchButtonArea .formSearchButton:hover {
+    box-shadow: 0px 0px 15px 0px #47C7B5;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heroRightArea {
+    position: relative;
+}
+
+.heroRightArea .heroRightImage {
+    width: 100%;
+    position: absolute;
+    right: -18%;
+    height: 100%;
+}
+
+/*=========================================*/
+/*============End Hero Section============*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Service Section==========*/
+/*=========================================*/
+.mainServiceSection {
+    padding: 140px 0px 175px;
+}
+
+.serviceItem {}
+
+.serviceItem .srviceIcon {}
+
+.serviceItem .serviceName {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #000000;
+    padding: 50px 0px 40px;
+}
+
+.serviceItem .serviceDetails {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.offerRoomAndWantRoomArea {
+    padding-top: 230px;
+}
+
+.mainOfferRoom {}
+
+.mainOfferRoom .mainImage {
+    width: 100%;
+}
+
+.mainWantRoom .mainImage {
+    width: 100%;
+}
+
+.offerButton {
+    margin-top: 130px;
+}
+
+.customButton {
+    border: none;
+    background: #47C7B5;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 43px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.customButton:hover {
+    box-shadow: 0px 0px 15px 0px #47C7B5;
+}
+
+/*=========================================*/
+/*============End Service Section===========*/
+/*=========================================*/
+/*=========================================*/
+/*===========Start Recent ADs Section=======*/
+/*=========================================*/
+.mainRecentAdsArea {}
+
+.recentADsHeading {
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.recentADsHeading .recentADsHeadingText {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.recentADsHeadingText::after {
+    content: "";
+    position: absolute;
+    clear: both;
+    bottom: -7px;
+    left: 25%;
+    height: 3px;
+    width: 120px;
+    background: #47C7B5;
+    border-radius: 35px;
+}
+
+.recentADsItemArea {
+    box-shadow: 0px 0px 10px 0px gray;
+    padding: 0;
+}
+
+.recentAdsImageArea {
+    position: relative;
+}
+
+.recentAdsImageArea .recentAdsImage {
+    width: 100%;
+}
+
+.newBtnArea {
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+}
+
+.newBtnArea .newButton {
+    border: none;
+    background: none;
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #47C7B5;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.recentAdsText {
+    padding: 30px 40px 60px;
+}
+
+.recentAdsText .recentAdsTextHeading {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #7F7F7F;
+    padding-bottom: 18px;
+}
+
+.flexBoxTwo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.icon {}
+
+.icon .locationIcon {
+    margin-right: 20px;
+}
+
+.address {}
+
+.address .addressText {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.flexBoxThree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.timeLeftArea {
+    flex-basis: 30%;
+}
+
+.timeLeftArea .text {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.timeRightArea {
+    flex-basis: 70%;
+}
+
+.timeRightArea .text {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.roomDetailsArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.roomDetails {}
+
+.roomDetails .roomDetailsText {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #7F7F7F;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.price {}
+
+.price .priceText {
+    font-size: 42px;
+    font-weight: 700;
+    color: #47C7B5;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 14px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 14px));
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+    background: #47C7B5 !important;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+/*=========================================*/
+/*===========End Recent ADs Section=========*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Top Locations Section=======*/
+/*=========================================*/
+.mainTopLoactionAreaStart {
+    padding: 185px 0px;
+}
+
+.topLoactionItem {
+    text-align: center;
+}
+
+.topLoactionItem .topLoactionImages {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.topLoactionItem .topLoactionsName {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 40px;
+}
+
+/*=========================================*/
+/*==========End Top Locations Section=======*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start Client Feedback Section=======*/
+/*=========================================*/
+mainClientsFeedbackArea {}
+
+clientFeedbackArea {}
+
+.clientFeedbackItem {
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 60px 50px;
+    margin: 10px;
+}
+
+.clientFeedbackItem .queationsMark {}
+
+.clientFeedbackItem .clientFeedbackText {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7D8597;
+    margin-top: -20px;
+}
+
+.clientFeedbackItem .clientImage {
+    height: 54.92px;
+    width: 54.92px;
+    border-radius: 50%;
+    margin: 30px 0px 10px;
+}
+
+.clientFeedbackItem .clientName {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #293B5F;
+}
+
+.clientFeedbackItem .clientOccupation {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #707D97;
+}
+
+.custom-wrapper {
+    height: 500px;
+}
+
+/*=========================================*/
+/*==========End Client Feedback Section=======*/
+/*=========================================*/
+/*=========================================*/
+/*==========Start App Store Section=======*/
+/*=========================================*/
+.mainAppStoreArea {
+    padding: 150px 0px 127px;
+}
+
+.appStoreHeading {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.appStoreHeading .appStoreHeadingText {
+    font-size: 34px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.downloadAppArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple {}
+
+.apple .downloadLink {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.apple .downloadLink .appLogo {}
+
+/*=========================================*/
+/*==========End App Store Section=======*/
+/*=========================================*/
+/*=========================================*/
+/*=============Start Footer Section==========*/
+/*=========================================*/
+.mainFooterArea {
+    padding-top: 90px;
+}
+
+.footerItem {}
+
+.footerItem .footerLogo {}
+
+.footerItmeHeading {}
+
+.footerItmeHeading .footerItmeHeadingText {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 34px;
+}
+
+.footerItemListArea {}
+
+.footerItemListArea .footerItemArea {}
+
+.footerItemListArea .footerItemArea .footerItemList {}
+
+.footerItemListArea .footerItemArea .footerItemList .footerItemLink {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footerItemDetails {}
+
+.footerItemDetails .footerItemDetailsText {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.copyRightArea {
+    border-top: 2px solid #334565;
+    padding: 35px 0px;
+    margin-top: 40px;
+}
+
+.mainCopyrightArea {}
+
+.mainCopyrightArea .copyRightText {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.customFlexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCopyrightArea {}
+
+.footerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerUl .footerList {}
+
+.footerUl .footerList .footerLink {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.selectLanguageArea {}
+
+.selectLanguageUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectLanguageUl .selectLanguageList {}
+
+.selectLanguageUl .selectLanguageList .selectLanguageLink {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.paymentAndSocialMediaArea {}
+
+.paymentGatwayArea {}
+
+.paymentGatway {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.paymentGatway .paymentGatwayList {
+    margin-right: 15px;
+}
+
+.paymentGatway .paymentGatwayList .paymentGatwayIcon {
+    height: 40px;
+    width: 70px;
+}
+
+.socialMediaArea {}
+
+.socialMedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialMedia .socialMediaList {}
+
+.socialMedia .socialMediaList .followUs {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.socialMedia .socialMediaList .socialMediaIcon {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.socialMedia .socialMediaList .socialMediaIcon .customIocn {
+    font-size: 26px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.socialMedia .socialMediaList .socialMediaIcon .bxl-youtube {
+    color: #FF0000;
+    background: #fff;
+}
+
+.socialMedia .socialMediaList .socialMediaIcon .bxl-facebook {
+    color: #FFF;
+    background: #067BEA;
+}
+
+.socialMedia .socialMediaList .socialMediaIcon .bxl-instagram-alt {
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.socialMedia .socialMediaList .socialMediaIcon .bxl-twitter {
+    color: #52A8E7;
+    background: #fff;
+}
+
+.customMarginPadding {
+    margin-top: 40px;
+}
+
+/*=========================================*/
+/*=============End Footer Section==========*/
+/*=========================================*/

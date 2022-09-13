@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Swiper Slider CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Search Stylesheet-->
+    <link rel="stylesheet" href="assets/css/search.css">
+    <!--Menu Stylesheet-->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <!--Responsive Stylesheet-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=START MAIN BODY AREA=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-->
+    <main class="mainBodyArea">
+        <!--==========================Start Main Header Area==========================-->
+        <header class="mainHeaderArea">
+            <div class="container">
+                <div class="row">
+                    <nav class="mainMenuArea">
+                        <ul class="menuArea">
+                            <li class="menuList">
+                                <a class="menuItem " href="index.html">Home</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="searchPage.html">Search room for rent</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem menuActive" href="searchPageTwo.html">Search room seeker</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="blog.html">Blog</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="#">Contact us</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="regButton" href="#">Login/Register</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--Responsive Header Area Start-->
+        <header class="header responsiveHeader">
+            <a href="index.html" class="logo"><img src="assets/images/logoRoomForRent.svg" alt="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li class="menuList">
+                    <a class="menuItem" href="index.html">Home</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="searchPage.html">Search room for rent</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="searchPageOne.html">Search room seeker</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="blog.html">Blog</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="#">Contact us</a>
+                </li>
+                <li class="menuList">
+                    <a class="regButton" href="#">Login/Register</a>
+                </li>
+            </ul>
+        </header>
+        <!--Responsive Header Area Start-->
+        <!--==========================End Main Header Area==========================-->
+        <!--==========================Start Main Hero Area==========================-->
+        <section class="searchAndMapSection">
+            <div class="container-fluid">
+                <div class="row flexBoxSix">
+                    <!--Search Area-->
+                    <div class="mainSearchArea col-xl-5 col-lg-5 col-md-5 col-12">
+                        <form class="searchForm" action="">
+                            <div class="formGroup flexBoxFive">
+                                <div class="searchRoomHeading">
+                                    <p class="searchText">Search for Room:</p>
+                                </div>
+                                <div class="filterIconArea">
+                                    <p class="filterText"><img class="filterIcon" src="assets/images/icon/filter-filled-tool-symbol.svg" alt="icon"> Hide Filters</p>
+                                </div>
+                            </div>
+                            <div class="formGroup">
+                                <input class="searchBox" type="search">
+                            </div>
+                        </form>
+                        <!--Search Output Select Area-->
+                        <div class="roomCostArea">
+                            <div class="roomCostHeading">
+                                <h1 class="roomCostHeadingText">Room Cost:</h1>
+                            </div>
+                            <div class="customButtonArea">
+                                <div class="customButtonArea">
+                                    <div class="roomCost" id="myDIV">
+                                        <button class="newButton selectButton">Per Month</button>
+                                        <button class="newButton selectButton">Per Week</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Select Ammount-->
+                        <div class="slider">
+                            <div class="range-wrap">
+                                <input type="range" class="range" min="10" max="2000">
+                                <output class="bubble"></output>
+                            </div>
+                            <div class="rangeValueShow">
+                                <div class="leftVale">
+                                    <p id="rangeValue" class="rangeValueText">10 </p><span class="gbp"> GBP</span>
+                                </div>
+                                <div class="rightValue">
+                                    <p class="rangeValueText">2000 GBP</p>
+                                </div>
+                            </div>
+                            <!--Checkbox-->
+                            <div class="checkBoxArea" style="margin-top: 35px;">
+                                <input class="checkBox" type="checkbox">
+                                <label class="checkboxText" for="">All bills included</label>
+                            </div>
+                            <!--///End Checkbox-->
+                        </div>
+                        <!--/// End Select Ammount-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText" style="margin-top: 25px;">Advert From:</h1>
+                            </div>
+                            <!--Select Button-->
+                            <div class="selectBox">
+                                <button class="selectButton">Any</button>
+                                <button class="selectButton">Agent</button>
+                                <button class="selectButton">Landlord</button>
+                            </div>
+                            <!--/// End Select Button-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Availability Period:</h1>
+                            </div>
+                            <!--Select Button-->
+                            <div class="selectBox">
+                                <button class="selectButton">All</button>
+                                <button class="selectButton">7d/week</button>
+                                <button class="selectButton">Mon-Fri</button>
+                                <button class="selectButton">Sat-Sun</button>
+                            </div>
+                            <!--/// End Select Button-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Availability Period:</h1>
+                            </div>
+                            <!--Select Button-->
+                            <div class="selectBox">
+                                <button class="selectButton">All</button>
+                                <button class="selectButton">Shared</button>
+                                <button class="selectButton">Whole Flat</button>
+                                <button class="selectButton">Whole House</button>
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Ensuite / Private <br>Bathroom</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Furnished</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <!--/// End Select Button-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Property Features Offered:</h1>
+                            </div>
+                            <!--Select Checkbox-->
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Shared living room</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Disabled Access</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Pets Considered</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Garden</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">TV</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Balcony</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Concierge</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Wifi/Broadband</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Cleaner</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Smoking(outside only)</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Parking</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Air Conditioning</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Short term 1-3 <br class="disNoneOne;"> month considered</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea disNoneOne">
+                                    <!--<input class="checkBox" type="checkbox">
+                                        <label class="checkboxText" for="">Air Conditioning</label>-->
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <!--/// End Select Checkbox-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Gender:</h1>
+                            </div>
+                            <!--Select Button-->
+                            <div class="selectBox">
+                                <button class="selectButton">Any</button>
+                                <button class="selectButton">Male</button>
+                                <button class="selectButton">Female</button>
+                            </div>
+                            <!--/// End Select Button-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Work Status:</h1>
+                            </div>
+                            <!--Select Button-->
+                            <div class="selectBox">
+                                <button class="selectButton">Any</button>
+                                <button class="selectButton">Professional</button>
+                                <button class="selectButton">Student</button>
+                            </div>
+                            <!--/// End Select Button-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--Select Age-->
+                        <div class="slider">
+                            <div class="range-wrap">
+                                <input type="range" class="range" min="18" max="80">
+                                <output class="bubble"></output>
+                            </div>
+                            <div class="rangeValueShow">
+                                <div class="leftVale">
+                                    <p id="rangeValue" class="rangeValueText">18</p><span class="gbp">yrs</span>
+                                </div>
+                                <div class="rightValue">
+                                    <p class="rangeValueText">80yrs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/// End Select Age-->
+                        <!--Select Box Area with copy-->
+                        <div class="selectBoxArea">
+                            <div class="selectBoxHeading">
+                                <h1 class="selectBoxHeadingText">Current Flatmates:</h1>
+                            </div>
+                            <!--Select Checkbox-->
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Exclude non-english <br>speaking share</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Family/Couple</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Vegetarian</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Children in house</label>
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <div class="flexBoxSeven">
+                                <!--Checkbox-->
+                                <div class="checkBoxArea leftArea">
+                                    <input class="checkBox" type="checkbox">
+                                    <label class="checkboxText" for="">Show LGBTQ+ <br>Houseshare only</label>
+                                </div>
+                                <!--///End Checkbox-->
+                                <!--Checkbox-->
+                                <div class="checkBoxArea rightArea">
+                                    <!--<input class="checkBox" type="checkbox">
+                                        <label class="checkboxText" for="">Air Conditioning</label>-->
+                                </div>
+                                <!--///End Checkbox-->
+                            </div>
+                            <!--/// End Select Checkbox-->
+                        </div>
+                        <!--/// End Select Box Area with copy-->
+                        <!--/// End Search Output Select Area-->
+                    </div>
+                    <!--/// End Search Area-->
+                    <!--Main Map Area-->
+                    <div class="mainMapArea col-xl-7 col-lg-7 col-md-7 col-12">
+                        <!--Map Select Button Area-->
+                        <div class="mapSelectButtonArea">
+                            <button class="mapButton">No Search</button>
+                            <button class="mapButton">Room Cost: $1 - $1000</button>
+                            <button class="mapButton">Payment Frequency: pm</button>
+                            <button class="mapButton">Advertiser: Any</button>
+                            <button class="mapButton">Availability: 7d/week</button>
+                            <button class="mapButton">Room Type: Any</button>
+                            <button class="mapButton">Gender: Male</button>
+                            <button class="mapButton">Accommodation Type: All</button>
+                            <a class="saveFilter" href="#">Save Filter</a>
+                        </div>
+                        <!--/// End Map Select Button Area-->
+                        <!--Map Area-->
+                        <div class="mainMap">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992633.1526791888!2d-2.222700258837958!3d54.69978086608199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sbd!4v1662498274933!5m2!1sen!2sbd" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!--/// End Map Area-->
+                    </div>
+                    <!--/// End Main Map Area-->
+                </div>
+            </div>
+        </section>
+        <!--==========================Start Main Service Area==========================-->
+    </main>
+    <script type="text/javascript" charset="utf-8">
+        const allRanges = document.querySelectorAll(".range-wrap");
+        allRanges.forEach(wrap => {
+            const range = wrap.querySelector(".range");
+            const bubble = wrap.querySelector(".bubble");
+            range.addEventListener("input", () => {
+                setBubble(range, bubble);
+            });
+            setBubble(range, bubble);
+        });
+
+        function setBubble(range, bubble) {
+            const val = range.value;
+            const min = range.min ? range.min : 10;
+            const max = range.max ? range.max : 2000;
+            const newVal = Number(((val - min) * 100) / (max - min));
+            bubble.innerHTML = val;
+            // Sorta magic numbers based on size of the native UI thumb
+            bubble.style.left = newVal + "%";
+        }
+
+    </script>
+    <!-- Jquery CDN  -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".selectButton").click(function(event) {
+                $(this).toggleClass("active");
+            });
+        });
+
+    </script>
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

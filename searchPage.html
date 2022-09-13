@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Swiper Slider CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Search Stylesheet-->
+    <link rel="stylesheet" href="assets/css/search.css">
+    <!--Menu Stylesheet-->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <!--Responsive Stylesheet-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/searchPageResponsive.css">
+</head>
+
+<body>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=START MAIN BODY AREA=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-->
+    <main class="mainBodyArea">
+        <!--==========================Start Main Header Area==========================-->
+        <header class="mainHeaderArea">
+            <div class="container">
+                <div class="row">
+                    <nav class="mainMenuArea">
+                        <ul class="menuArea">
+                            <li class="menuList">
+                                <a class="menuItem " href="index.html">Home</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem menuActive" href="searchPage.html">Search room for rent</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="searchPageOne.html">Search room seeker</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="blog.html">Blog</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="menuItem" href="#">Contact us</a>
+                            </li>
+                            <li class="menuList">
+                                <a class="regButton" href="#">Login/Register</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--Responsive Header Area Start-->
+        <header class="header responsiveHeader">
+            <a href="index.html" class="logo"><img src="assets/images/logoRoomForRent.svg" alt="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li class="menuList">
+                    <a class="menuItem" href="index.html">Home</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="searchPage.html">Search room for rent</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="searchPageOne.html">Search room seeker</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="blog.html">Blog</a>
+                </li>
+                <li class="menuList">
+                    <a class="menuItem" href="#">Contact us</a>
+                </li>
+                <li class="menuList">
+                    <a class="regButton" href="#">Login/Register</a>
+                </li>
+            </ul>
+        </header>
+        <!--Responsive Header Area Start-->
+        <!--==========================End Main Header Area==========================-->
+        <!--==========================Start Main Hero Area==========================-->
+        <section class="searchAndMapSection">
+            <div class="container-fluid">
+                <div class="row flexBoxSix">
+                    <!--Search Area-->
+                    <div class="mainSearchArea col-xl-5 col-lg-5 col-md-5 col-12">
+                        <form class="searchForm" action="">
+                            <div class="formGroup flexBoxFive">
+                                <div class="searchRoomHeading">
+                                    <p class="searchText">Search for Room:</p>
+                                </div>
+                                <div class="filterIconArea">
+                                    <p class="filterText"><img class="filterIcon" src="assets/images/icon/filter-filled-tool-symbol.svg" alt="icon"> Filters</p>
+                                </div>
+                            </div>
+                            <div class="formGroup">
+                                <input class="searchBox" type="search">
+                            </div>
+                        </form>
+                        <!--Search Output Area-->
+                        <!--Search Output Item-->
+                        <div class="recentADsItemArea flexBoxFour">
+                            <!--Recent Ads Image-->
+                            <div class="recentAdsImageArea customWidthOne">
+                                <img class="recentAdsImage" src="assets/images/searchImage/01.png" alt="img">
+                                <div class="newBtnArea">
+                                    <button class="newButton">New</button>
+                                </div>
+                            </div>
+                            <!--/// End Recent Ads Image-->
+                            <!--Recent Ads Text-->
+                            <div class="recentAdsText customWidthTwo">
+                                <h1 class="recentAdsTextHeading">For Rent in Edgware,London</h1>
+                                <div class="flexBoxTwo">
+                                    <div class="icon">
+                                        <img class="locationIcon" src="assets/images/recentAds/location-on-map.svg" alt="icon">
+                                    </div>
+                                    <div class="address">
+                                        <p class="addressText">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">From:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">01:54 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">Expires:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">06:00 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Room Details-->
+                                <div class="roomDetailsArea">
+                                    <div class="roomDetails">
+                                        <p class="roomDetailsText">1 Bed</p>
+                                        <p class="roomDetailsText">1 Bath</p>
+                                        <p class="roomDetailsText">50m</p>
+                                    </div>
+                                    <div class="price">
+                                        <h1 class="priceText">$1000</h1>
+                                    </div>
+                                </div>
+                                <!--/// End Room Details-->
+                            </div>
+                            <!--/// End Recent Ads Text-->
+                        </div>
+                        <!--/// End Search Output Item-->
+                        <!--Search Output Item-->
+                        <div class="recentADsItemArea flexBoxFour">
+                            <!--Recent Ads Image-->
+                            <div class="recentAdsImageArea customWidthOne">
+                                <img class="recentAdsImage" src="assets/images/searchImage/02.png" alt="img">
+                                <div class="newBtnArea">
+                                    <button class="newButton">New</button>
+                                </div>
+                            </div>
+                            <!--/// End Recent Ads Image-->
+                            <!--Recent Ads Text-->
+                            <div class="recentAdsText customWidthTwo">
+                                <h1 class="recentAdsTextHeading">For Rent in Edgware,London</h1>
+                                <div class="flexBoxTwo">
+                                    <div class="icon">
+                                        <img class="locationIcon" src="assets/images/recentAds/location-on-map.svg" alt="icon">
+                                    </div>
+                                    <div class="address">
+                                        <p class="addressText">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">From:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">01:54 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">Expires:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">06:00 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Room Details-->
+                                <div class="roomDetailsArea">
+                                    <div class="roomDetails">
+                                        <p class="roomDetailsText">1 Bed</p>
+                                        <p class="roomDetailsText">1 Bath</p>
+                                        <p class="roomDetailsText">50m</p>
+                                    </div>
+                                    <div class="price">
+                                        <h1 class="priceText">$1000</h1>
+                                    </div>
+                                </div>
+                                <!--/// End Room Details-->
+                            </div>
+                            <!--/// End Recent Ads Text-->
+                        </div>
+                        <!--/// End Search Output Item-->
+                        <!--Search Output Item-->
+                        <div class="recentADsItemArea flexBoxFour" style="background: #FFFDF8; border: 1px solid #FFCC23;">
+                            <!--Recent Ads Image-->
+                            <div class="recentAdsImageArea customWidthOne">
+                                <img class="recentAdsImage" src="assets/images/searchImage/03.png" alt="img">
+                            </div>
+                            <!--/// End Recent Ads Image-->
+                            <!--Recent Ads Text-->
+                            <div class="recentAdsText customWidthTwo">
+                                <h1 class="recentAdsTextHeading">Single Bedroom <img src="assets/images/icon/crown.svg" alt="icon"></h1>
+                                <div class="flexBoxTwo">
+                                    <div class="icon">
+                                        <img class="locationIcon" src="assets/images/recentAds/location-on-map.svg" alt="icon">
+                                    </div>
+                                    <div class="address">
+                                        <p class="addressText">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">From:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">01:54 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">Expires:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">06:00 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Room Details-->
+                                <div class="roomDetailsArea">
+                                    <div class="roomDetails">
+                                        <p class="roomDetailsText">1 Bed</p>
+                                        <p class="roomDetailsText">1 Bath</p>
+                                        <p class="roomDetailsText">50m</p>
+                                    </div>
+                                    <div class="price">
+                                        <h1 class="priceText">$1000</h1>
+                                    </div>
+                                </div>
+                                <!--/// End Room Details-->
+                            </div>
+                            <!--/// End Recent Ads Text-->
+                        </div>
+                        <!--/// End Search Output Item-->
+                        <!--Search Output Item-->
+                        <div class="recentADsItemArea flexBoxFour" style="background: #FFF5F6; border: 1px solid #EF1A2F;">
+                            <!--Recent Ads Image-->
+                            <div class="recentAdsImageArea customWidthOne">
+                                <img class="recentAdsImage" src="assets/images/searchImage/04.png" alt="img">
+                            </div>
+                            <!--/// End Recent Ads Image-->
+                            <!--Recent Ads Text-->
+                            <div class="recentAdsText customWidthTwo">
+                                <h1 class="recentAdsTextHeading">Double Bedroom <img src="assets/images/icon/crownRed.svg" alt="icon"></h1>
+                                <div class="flexBoxTwo">
+                                    <div class="icon">
+                                        <img class="locationIcon" src="assets/images/recentAds/location-on-map.svg" alt="icon">
+                                    </div>
+                                    <div class="address">
+                                        <p class="addressText">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">From:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">01:54 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">Expires:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">06:00 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Room Details-->
+                                <div class="roomDetailsArea">
+                                    <div class="roomDetails">
+                                        <p class="roomDetailsText">1 Bed</p>
+                                        <p class="roomDetailsText">1 Bath</p>
+                                        <p class="roomDetailsText">50m</p>
+                                    </div>
+                                    <div class="price">
+                                        <h1 class="priceText">$1000</h1>
+                                    </div>
+                                </div>
+                                <!--/// End Room Details-->
+                            </div>
+                            <!--/// End Recent Ads Text-->
+                        </div>
+                        <!--/// End Search Output Item-->
+                        <!--Search Output Item-->
+                        <div class="recentADsItemArea flexBoxFour">
+                            <!--Recent Ads Image-->
+                            <div class="recentAdsImageArea customWidthOne">
+                                <img class="recentAdsImage" src="assets/images/searchImage/05.png" alt="img">
+                                <div class="newBtnArea">
+                                    <button class="newButton">New</button>
+                                </div>
+                            </div>
+                            <!--/// End Recent Ads Image-->
+                            <!--Recent Ads Text-->
+                            <div class="recentAdsText customWidthTwo">
+                                <h1 class="recentAdsTextHeading">For Rent in Edgware,London</h1>
+                                <div class="flexBoxTwo">
+                                    <div class="icon">
+                                        <img class="locationIcon" src="assets/images/recentAds/location-on-map.svg" alt="icon">
+                                    </div>
+                                    <div class="address">
+                                        <p class="addressText">Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">From:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">01:54 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Time Area-->
+                                <div class="flexBoxThree">
+                                    <!--Time-->
+                                    <div class="timeLeftArea">
+                                        <p class="text">Expires:</p>
+                                    </div>
+                                    <div class="timeRightArea">
+                                        <p class="text">06:00 Pm</p>
+                                    </div>
+                                    <!--/// End Time-->
+                                </div>
+                                <!--/// End Time Area-->
+                                <!--Room Details-->
+                                <div class="roomDetailsArea">
+                                    <div class="roomDetails">
+                                        <p class="roomDetailsText">1 Bed</p>
+                                        <p class="roomDetailsText">1 Bath</p>
+                                        <p class="roomDetailsText">50m</p>
+                                    </div>
+                                    <div class="price">
+                                        <h1 class="priceText">$1000</h1>
+                                    </div>
+                                </div>
+                                <!--/// End Room Details-->
+                            </div>
+                            <!--/// End Recent Ads Text-->
+                        </div>
+                        <!--/// End Search Output Item-->
+                        <!--/// End Search Output Area-->
+                    </div>
+                    <!--/// End Search Area-->
+                    <!--Main Map Area-->
+                    <div class="mainMapArea col-xl-7 col-lg-7 col-md-7 col-12">
+                        <!--Map Area-->
+                        <div class="mainMap">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992633.1526791888!2d-2.222700258837958!3d54.69978086608199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sbd!4v1662498274933!5m2!1sen!2sbd" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!--/// End Map Area-->
+                    </div>
+                    <!--/// End Main Map Area-->
+                </div>
+            </div>
+        </section>
+        <!--==========================Start Main Service Area==========================-->
+    </main>
+    <!--Bootstrap CDN js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

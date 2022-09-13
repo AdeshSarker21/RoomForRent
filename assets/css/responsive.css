@@ -1,0 +1,726 @@
+@media only screen and (max-width: 1991px) and (min-width: 1750px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1640px;
+    }
+
+    .menuArea .menuList .menuItem {
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    .menuArea .menuList .regButton {
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    .serviceItem .serviceName {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .serviceItem .serviceDetails {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .customButton {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 31px 110px;
+    }
+
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .address .addressText {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    .timeRightArea .text {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    .timeLeftArea .text {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    .roomDetails .roomDetailsText {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .price .priceText {
+        font-size: 52px;
+        font-weight: 700;
+        color: #47C7B5;
+    }
+
+    .clientFeedbackItem .clientFeedbackText {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .clientFeedbackItem .clientName {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mainServiceSection {
+        padding: 131px 0px 225px;
+    }
+
+    .offerButton {
+        margin-top: 135px;
+    }
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection {
+        padding: 440px 35px 30px;
+    }
+
+    .checkBox {
+        margin-right: 10px;
+        height: 37px;
+        width: 37px;
+    }
+}
+
+@media only screen and (max-width: 1749px) and (min-width: 1401px) {
+    .menuArea .menuList .menuItem {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .menuArea .menuList .menuItem {
+        font-size: 16px;
+        margin: 0px 21px;
+    }
+
+    .menuArea .menuList .regButton {
+        font-size: 16px;
+    }
+
+    .heroLogoArea {
+        padding: 135px 0px 70px;
+    }
+
+    .searchButtonArea .formSearchButton {
+        padding: 10px 43px;
+    }
+
+    .heroRightArea .heroRightImage {
+        right: -3%;
+    }
+
+    .serviceItem .serviceName {
+        font-size: 18px;
+        line-height: 32px;
+        padding: 30px 0px 20px;
+    }
+
+    .serviceItem .serviceDetails {
+        font-size: 15px;
+    }
+
+    .mainServiceSection {
+        padding: 80px 0px 100px;
+    }
+
+    .offerRoomAndWantRoomArea {
+        padding-top: 100px;
+    }
+
+    .offerButton {
+        margin-top: 75px;
+    }
+
+    .swiper-wrapper {
+        margin: 0px 25px;
+        height: 870px;
+    }
+
+    .recentADsHeading {
+        margin-bottom: 100px;
+    }
+
+    .mainTopLoactionAreaStart {
+        padding: 100px 0px;
+    }
+
+    .custom-wrapper {
+        margin: 0;
+        height: 480px;
+    }
+
+    .footerItem .footerLogo {
+        width: 90%;
+    }
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 27px;
+    }
+
+    .blogPostImageSection {
+        padding: 240px 35px 30px;
+    }
+
+    .blogPostTextArea .blogPostDetailsText {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .recentPostTextArea .recentPostDetailsHeading {
+        font-size: 13px;
+    }
+
+    .recentPostTextArea .recentPostDetailsText {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .blogHeading .blogHeadingText {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .slider input[type="range"] {
+        width: 333px;
+    }
+
+    .rangeValueShow {
+        margin-right: 23%;
+    }
+
+    .disNoneOne {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider input[type="range"] {
+        width: 100%;
+    }
+
+    .menuArea .menuList .menuItem {
+        font-size: 15px;
+        margin: 0px 7px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .mainHeaderArea {
+        display: none;
+    }
+
+    .responsiveHeader {
+        display: block;
+    }
+
+    .heroLogoArea {
+        padding: 100px 0px 85px;
+    }
+
+    .heroRightArea .heroRightImage {
+        display: none;
+    }
+
+    .mainSearchBarArea {
+        padding-bottom: 0px;
+    }
+
+    .offerRoomAndWantRoomArea {
+        padding-top: 100px;
+    }
+
+    .offerButton {
+        margin-top: 70px;
+    }
+
+    .mainServiceSection {
+        padding: 70px 0px 90px;
+    }
+
+    .recentADsHeading {
+        text-align: center;
+        margin-bottom: 85px;
+    }
+
+    .swiper-wrapper {
+        height: 750px;
+    }
+
+    .mainTopLoactionAreaStart {
+        padding: 80px 0px;
+    }
+
+    .topLoactionItem {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .custom-wrapper {
+        margin: 0;
+        height: 480px;
+    }
+
+    .customFlexBox {
+        display: unset;
+        justify-content: unset;
+        align-items: center;
+    }
+
+    .footerItem .footerLogo {
+        margin-left: -30px;
+        padding-top: 25px;
+    }
+
+    .footerItmeHeading {
+        padding-top: 25px;
+    }
+
+    .mainFooterArea {
+        padding-top: 45px;
+    }
+
+    .serviceItem {
+        margin-top: 25px;
+    }
+
+    .customMargin {
+        margin: 0;
+    }
+
+    .mainMapArea {
+        width: 100%;
+    }
+
+    .mainSearchArea {
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider input[type="range"] {
+        width: 100%;
+    }
+
+    .customSliderHeight {
+        height: 300px;
+    }
+
+    .selectLanguageUl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footerUl {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        flex-wrap: wrap !important;
+    }
+
+    .footerUl .footerList {
+        margin: 7px 10px;
+    }
+
+    .selectLanguageUl .selectLanguageList {
+        margin: 7px 10px;
+    }
+
+    .paymentGatway {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:767px) {
+    .searchButtonArea .formSearchButton {
+        padding: 11px 43px;
+        width: 93%;
+        margin-left: 30px;
+    }
+
+    .offerButton {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .mainServiceSection {
+        padding: 50px 0px 40px;
+    }
+
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 23px;
+        line-height: 40px;
+        padding-bottom: 5px;
+    }
+
+    .address .addressText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .timeRightArea .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .timeLeftArea .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .price .priceText {
+        font-size: 30px;
+    }
+
+    .swiper-wrapper {
+        height: 640px;
+    }
+
+    .recentADsHeading .recentADsHeadingText {
+        font-size: 28px;
+        line-height: 46px;
+    }
+
+    .appStoreHeading .appStoreHeadingText {
+        font-size: 26px;
+    }
+
+    .mainAppStoreArea {
+        padding: 0px 0px 80px;
+    }
+
+    .flexBox {
+        flex-direction: column;
+    }
+
+    .searchButtonArea .formSearchButton {
+        padding: 11px 43px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .searchButtonArea {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .searchInput {
+        flex-basis: 100%;
+    }
+
+    .custom-wrapper {
+        margin: 0;
+        height: 480px !important;
+    }
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 26px;
+        line-height: 46px;
+    }
+
+    .blogPostTextArea .blogPostDetailsText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .blogPostImageSection {
+        padding: 230px 35px 30px;
+    }
+
+    .blogPostTextArea .readMoreButtonArea .readMoreButton {
+        padding: 8px 43px;
+    }
+
+    .customSliderHeight {
+        height: 300px;
+    }
+}
+
+@media all and (max-width:577px) {
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 22px;
+        line-height: 46px;
+    }
+
+    .blogPostImageSection {
+        padding: 200px 35px 30px;
+    }
+
+    .showRoomDetailsArea {
+        width: 92%;
+        top: 2%;
+        left: 4%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .swiper-wrapper {
+        height: 570px;
+    }
+
+    .clientFeedbackItem {
+        padding: 25px 15px;
+        margin: 10px;
+    }
+
+    .appStoreHeading .appStoreHeadingText {
+        font-size: 21px;
+    }
+
+    .custom-wrapper {
+        margin: 0;
+        height: 400px !important;
+    }
+
+    .downloadAppArea {
+        flex-direction: column;
+    }
+
+    .apple .downloadLink {
+        display: inline-block;
+        margin: 0px 10px;
+        margin-bottom: 15px;
+    }
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 18px;
+        line-height: 46px;
+    }
+
+    .blogPostImageSection {
+        padding: 150px 35px 30px;
+    }
+
+    .roomCostArea {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .selectButton .newButton {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+
+    #myDIV {
+        margin-top: 15px;
+    }
+
+    .flexBoxSeven {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .customSliderHeight {
+        height: 300px;
+    }
+
+    .contactButtonArea {
+        flex-direction: column;
+    }
+
+    .contactButtonArea .contactButton {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .checkBoxArea .checkboxText {
+        font-size: 16px;
+    }
+
+    .socialMedia .socialMediaList .followUs {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .roomDetails .roomDetailsText {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .socialMedia .socialMediaList .socialMediaIcon .customIocn {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 18px;
+        line-height: 46px;
+    }
+
+    .blogPostImageSection {
+        padding: 150px 20px 30px;
+    }
+
+    .blogHeading .blogHeadingText {
+        font-size: 55px;
+        line-height: 94px;
+    }
+
+    .blogHeading {
+        padding-bottom: 20px;
+    }
+
+    .recentPostImageArea .recentPostImage {
+        width: 120px;
+        height: 144px;
+    }
+
+    .recentPostHeading .recentPostHeadingText {
+        font-size: 26px;
+        line-height: 46px;
+    }
+
+    .appStoreHeading .appStoreHeadingText {
+        font-size: 20px;
+    }
+
+    .appStoreHeading {
+        text-align: center;
+        padding-bottom: 45px;
+    }
+
+    .blogHeading .blogHeadingText {
+        font-size: 45px;
+    }
+
+    .searchRoomHeading .searchText {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .filterIconArea .filterText {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media all and (max-width:374px) {
+
+    /*--------------------------Blog Page----------------------------------*/
+    .blogPostImageSection .blogPostHeadingName {
+        font-size: 16px;
+        line-height: 46px;
+    }
+
+    .recentPostImageArea .recentPostImage {
+        width: 120px;
+        height: 164px;
+    }
+}
+
+@media all and (max-width:360px) {
+    .header .logo img {
+        width: 85%;
+    }
+
+    .paymentGatway .paymentGatwayList .paymentGatwayIcon {
+        height: 30px;
+        width: 50px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .header .menu-icon {
+        padding: 0px 20px;
+        position: relative;
+        user-select: none;
+        margin-top: -30px;
+    }
+
+    .recentAdsText .recentAdsTextHeading {
+        font-size: 16px;
+        line-height: 10px;
+    }
+
+    .roomDetails .roomDetailsText {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .swiper-wrapper {
+        height: 500px;
+    }
+
+    .recentADsHeading .recentADsHeadingText {
+        font-size: 22px;
+        line-height: 46px;
+    }
+
+    .appStoreHeading .appStoreHeadingText {
+        font-size: 17px;
+    }
+
+    .custom-wrapper {
+        margin: 0;
+        height: 432px !important;
+    }
+
+    .blogPostImageSection {
+        padding: 100px 13px 30px;
+    }
+
+    .blogPostTextArea .blogPostDetailsText {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .blogHeading .blogHeadingText {
+        font-size: 45px;
+        line-height: 94px;
+    }
+
+    .customSliderHeight {
+        height: 300px;
+    }
+
+    .socialMedia .socialMediaList .socialMediaIcon {
+        margin-right: 8px;
+    }
+}

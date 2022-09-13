@@ -1,0 +1,144 @@
+.mainBlogAreastart {}
+
+.blogHeading {
+    padding-bottom: 55px;
+}
+
+.blogHeading .blogHeadingText {
+    font-size: 70px;
+    line-height: 94px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.mainBloagDetailsArea {
+    padding-right: 25px;
+}
+
+.blogPostDetailsArea {
+    margin-bottom: 100px;
+}
+
+.blogPostImageSection {
+    background: url(../images/blog/blog-one.png)no-repeat scroll 0 0 / 100% 100%;
+    padding: 300px 35px 30px;
+}
+
+.blogPostImageSection .blogPostHeadingName {
+    font-size: 34px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.blogPostImageSection .blogPostDate {
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.blogPostTextArea {}
+
+.blogPostTextArea .blogPostDetailsText {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 400;
+    padding: 30px 0px;
+}
+
+.blogPostTextArea .readMoreButtonArea {
+    text-align: right;
+}
+
+.blogPostTextArea .readMoreButtonArea .readMoreButton {
+    border: none;
+    background: none;
+    margin-right: 0;
+    background: #47C7B5;
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px 43px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.blogPostTextArea .readMoreButtonArea .readMoreButton:hover {
+    box-shadow: 0px 0px 15px 0px #47C7B5;
+}
+
+.mainRecentBlogArea {}
+
+.recentPostHeading {}
+
+.recentPostHeading .recentPostHeadingText {
+    font-size: 34px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+}
+
+.recentPostHeading .recentPostHeadingText::after {
+    content: "";
+    position: absolute;
+    clear: both;
+    bottom: -10%;
+    left: 0%;
+    height: 3px;
+    width: 100%;
+    background: #47C7B5;
+    border-radius: 35px;
+}
+
+.mainBlogRecentPost {}
+
+.recentPostItem {
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.recentPostImageArea {
+    margin-right: 15px;
+    flex-basis: 20%;
+}
+
+.recentPostImageArea .recentPostImage {
+    width: 120px;
+    height: 120px;
+}
+
+.recentPostTextArea {
+    flex-basis: 80%;
+}
+
+.recentPostTextArea .recentPosDetailstDate {
+    font-size: 15px;
+    line-height: 15px;
+    color: #B1B1B1;
+    font-weight: 400;
+}
+
+.recentPostTextArea .recentPostDetailsHeading {
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.recentPostTextArea .recentPostDetailsText {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+}

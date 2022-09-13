@@ -1,0 +1,618 @@
+.searchAndMapSection {}
+
+.mainSearchArea {
+    padding-left: 5%;
+    box-shadow: 0px 0px 10px 0px gray;
+    padding-top: 30px;
+    height: 100vh;
+    width: 45%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.mainSearchArea:hover {
+    overflow-y: auto;
+}
+
+.mainMapArea {
+    width: 55%;
+}
+
+.mainMap {}
+
+.mainMap .map {
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.searchForm {
+    margin-bottom: 35px;
+}
+
+.formGroup {}
+
+.flexBoxFive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchRoomHeading {}
+
+.searchRoomHeading .searchText {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.filterIconArea {}
+
+.filterIconArea .filterText {
+    font-size: 24px;
+    line-height: 32px;
+    color: #47C7B5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filterIconArea..filterText .filterIcon {
+    margin-right: 2px;
+}
+
+.formGroup {}
+
+.formGroup .searchBox {
+    border: none;
+    background: none;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: #707070;
+    padding: 15px 40px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000000;
+    width: 100%;
+}
+
+.flexBoxFour {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recentADsItemArea {
+    box-shadow: 0px 0px 10px 0px gray;
+    padding: 0;
+    padding-right: 5px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+.recentAdsImageArea {
+    position: relative;
+}
+
+.recentAdsImageArea .recentAdsImage {
+    width: 206px;
+    height: 182px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.newBtnArea {
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+}
+
+.newBtnArea .newButton {
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #47C7B5;
+    background: #fff;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.recentAdsText {
+    padding: 0;
+}
+
+.recentAdsText .recentAdsTextHeading {
+    font-size: 17.5px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #7F7F7F;
+    padding-bottom: 0px;
+}
+
+.flexBoxTwo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.icon {}
+
+.icon .locationIcon {
+    margin-right: 10px;
+}
+
+.address {}
+
+.address .addressText {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.flexBoxThree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timeLeftArea {
+    flex-basis: 30%;
+}
+
+.timeLeftArea .text {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.timeRightArea {
+    flex-basis: 70%;
+}
+
+.timeRightArea .text {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+
+.roomDetailsArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.roomDetails {}
+
+.roomDetails .roomDetailsText {
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #7F7F7F;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.price {}
+
+.price .priceText {
+    font-size: 25px;
+    font-weight: 700;
+    color: #47C7B5;
+    margin-right: 10px;
+}
+
+.customWidthOne {
+    flex-basis: 25%;
+    margin-right: 10px;
+}
+
+.customWidthTwo {
+    flex-basis: 75%;
+}
+
+/*=========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+                                                    Search Page One
+==========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================*/
+.roomCostArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.roomCostHeading {}
+
+.roomCostHeading .roomCostHeadingText {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #7F7F7F;
+}
+
+.customButtonArea {}
+
+.roomCost {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.roomCost .newButton {
+    border: none;
+    background: none;
+    background: #F5F5F5;
+    border-radius: 35px;
+    color: #7F7F7F;
+    padding: 15px 0px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    transition: 0.5s;
+    width: 115px;
+    margin-left: 30px;
+}
+
+.roomCost .newButton:hover {
+    background: #47C7B5;
+    color: #fff;
+}
+
+.slider input[type="range"] {
+    -webkit-appearance: none !important;
+    width: 100%;
+    height: 7px;
+    background: #47C7B5;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+}
+
+.slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #47C7B5;
+}
+
+.rangeValueShow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.leftVale {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rangeValueText {
+    font-size: 18px !important;
+    line-height: 21px !important;
+    font-weight: 400 !important;
+    color: #B1B1B1 !important;
+}
+
+.gbp {
+    font-size: 18px !important;
+    line-height: 21px !important;
+    font-weight: 400 !important;
+    color: #B1B1B1 !important;
+    padding-left: 4px;
+}
+
+.rightValue {}
+
+.checkBoxArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.checkBox {
+    margin-right: 10px;
+    height: 27px;
+    width: 27px;
+    accent-color: #47C7B5;
+    border-radius: 15px;
+}
+
+.checkBoxArea .checkboxText {
+    font-size: 18px;
+    font-weight: 400;
+    color: #B1B1B1;
+    line-height: 24px;
+}
+
+.selectBoxArea {}
+
+.selectBoxHeading {
+    padding: 17px 0px;
+}
+
+.selectBoxHeading .selectBoxHeadingText {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #7F7F7F;
+}
+
+.selectBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selectBox .selectButton {
+    border: none;
+    background: none;
+    background: #F5F5F5;
+    border-radius: 35px;
+    color: #7F7F7F;
+    padding: 15px 0px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    transition: 0.5s;
+    width: 115px;
+    margin-bottom: 15px;
+}
+
+.selectBox .selectButton:hover {
+    background: #47C7B5;
+    color: #fff;
+}
+
+.active {
+    background: #47C7B5 !important;
+    color: white !important;
+}
+
+.flexBoxSeven {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftArea {
+    flex-basis: 50%;
+}
+
+.rightArea {
+    flex-basis: 50%;
+}
+
+.mapSelectButtonArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+.mapSelectButtonArea .mapButton {
+    border: none;
+    background: none;
+    border: 1px solid #F5F5F5;
+    border-radius: 7px;
+    color: #7F7F7F;
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    transition: 0.5s;
+    margin: 5px 7px
+}
+
+.mapSelectButtonArea .saveFilter {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #47C7B5;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.range-wrap {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.range {
+    width: 100%;
+}
+
+.bubble {
+    background: #47C7B5;
+    color: white;
+    padding: 4px 12px;
+    position: absolute;
+    border-radius: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -140%;
+}
+
+.bubble::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #47C7B5;
+    bottom: -1px;
+    left: 50%;
+}
+
+/*=========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+                                                    Search Page Two
+==========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================*/
+.mainMapArea {
+    position: relative;
+}
+
+.showRoomDetailsArea {
+    width: 445px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /*
+    height: 100vh;
+    overflow: hidden;
+*/
+}
+
+/*
+.showRoomDetailsArea:hover {
+    overflow-y: auto;
+}
+*/
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size)/ 20 * 17);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    color: #fff;
+}
+
+.roomImage {}
+
+.contactButtonArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 25px;
+}
+
+.contactButtonArea .contactButton {
+    border: none;
+    background: none;
+    background-color: #47C7B5;
+    border-radius: 7px;
+    color: #fff;
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.contactButtonArea .contactButton .contactIcon {}
+
+.reportButton {
+    text-align: center;
+}
+
+.reportButton .reportIcon {}
+
+.reportButton .reportText {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #EF1A2F;
+}
+
+.roomAddressHeading {
+    border-bottom: 1px solid #707070;
+    padding: 15px 0px;
+}
+
+.roomAddressHeading .roomAddressHeadingText {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #47C7B5;
+}
+
+.rentDetailsHeaidng {
+    padding: 13px 0px 24px;
+}
+
+.rentDetailsHeaidng .rentDetailsHeaidngText {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #7F7F7F;
+}
+
+.table {}
+
+.tableBody {}
+
+.tableRow {}
+
+.table .tableBody .tableRow .tableItem {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7F7F7F;
+}
+
+.description {}
+
+.description .descriptionText {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7F7F7F;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: none;
+    border-width: 0;
+}
+
+.mainMap .map {
+    width: 100%;
+    height: 151vh;
+}
+
+.mainSearchArea {
+    height: 151vh;
+}
