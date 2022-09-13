@@ -359,9 +359,10 @@
         justify-content: center;
         align-items: center;
     }
+
     .mainSearchArea {
-	height: unset;
-}
+        height: unset;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -572,6 +573,14 @@
         font-size: 18px;
         line-height: 25px;
     }
+        .searchRoomHeading .searchText {
+	font-size: 19px;
+	line-height: 32px;
+}
+    .filterIconArea .filterText {
+	font-size: 19px;
+	line-height: 32px;
+}
 }
 
 @media all and (max-width:400px) {
@@ -667,6 +676,14 @@
         height: 30px;
         width: 50px;
     }
+        .searchRoomHeading .searchText {
+	font-size: 17px;
+	line-height: 32px;
+}
+    .filterIconArea .filterText {
+	font-size: 17px;
+	line-height: 32px;
+}
 }
 
 @media all and (max-width:350px) {
@@ -726,4 +743,5 @@
     .socialMedia .socialMediaList .socialMediaIcon {
         margin-right: 8px;
     }
+
 }
