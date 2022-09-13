@@ -359,6 +359,9 @@
         justify-content: center;
         align-items: center;
     }
+    .mainSearchArea {
+	height: unset;
+}
 }
 
 @media all and (max-width:767px) {
